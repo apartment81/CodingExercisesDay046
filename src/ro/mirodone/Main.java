@@ -13,7 +13,11 @@ public class Main {
         System.out.println(equalSidesArray.findEvenIndex(arr1));
         System.out.println(equalSidesArray.findEvenIndex(arr2));
 
-        System.out.println(equalSidesArray.findEvenIndex(new int[] {1,100,50,-51,1,1}));
+       EqualSidesClever equalSidesClever = new EqualSidesClever();
+
+
+        System.out.println(equalSidesClever.findEvenIndex(new int[] {1,100,50,-51,1,1}));
+        System.out.println(equalSidesArray.findEvenIndex(new int[] {1, 2, 3, 4, 3, 2, 1}));
 
 
     }
